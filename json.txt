@@ -1,0 +1,4 @@
+with open("money.json", "r") as f:
+    money_list = json.load(f)
+with open("money.json", "w") as f:
+  json.dump(money_list, f, indent=2)

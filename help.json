@@ -1,0 +1,258 @@
+{
+    "credits": {
+        "name": "credits",
+        "description": "Provides you with a list of credits.",
+        "type": "About",
+        "usage": "credits",
+        "note": "",
+        "alias": "credits"
+    },
+    "feedback": {
+        "name": "feedback",
+        "description": "Have any feedback? Use this command!",
+        "type": "About",
+        "usage": "feedback",
+        "note": "",
+        "alias": ""
+    },
+    "invite": {
+        "name": "invite",
+        "description": "Generates this bot's invite link.",
+        "type": "About",
+        "usage": "invite",
+        "note": "",
+        "alias": "inv"
+    },
+    "help": {
+        "name": "help",
+        "description": "Sends a list of commands.",
+        "type": "About",
+        "usage": "help",
+        "note": "",
+        "alias": ""
+    },
+    "search": {
+        "name": "search",
+        "description": "Search for a command.",
+        "type": "About",
+        "usage": "search",
+        "note": "",
+        "alias": ""
+    },
+    "ship": {
+        "name": "ship",
+        "description": "Ships two names.",
+        "type": "Fun",
+        "usage": "ship [string1] [string2]",
+        "note": "",
+        "alias": ""
+    },
+    "slap": {
+        "name": "slap",
+        "description": "Gives a short story to slap someone. There are sometimes consequences though.",
+        "type": "Fun",
+        "usage": "slap [string1]",
+        "note": "",
+        "alias": ""
+    },
+    "spam": {
+        "name": "spam",
+        "description": "Sends a string of random characters. (Maximum 2000 characters)",
+        "type": "Fun",
+        "usage": "spam [integer1]",
+        "note": "",
+        "alias": ""
+    },
+    "8ball": {
+        "name": "8ball",
+        "description": "8ball predicts your future!",
+        "type": "Fun",
+        "usage": "8ball [string1]",
+        "note": "",
+        "alias": ""
+    },
+    "fact": {
+        "name": "fact",
+        "description": "Generates a random useless fact.",
+        "type": "Generate",
+        "usage": "fact",
+        "note": "",
+        "alias": "facts"
+    },
+    "gif": {
+        "name": "gif",
+        "description": "Gives a GIF about a selected string.",
+        "type": "Generate",
+        "usage": "gif [string1]",
+        "note": "",
+        "alias": ""
+    },
+    "joke": {
+        "name": "joke",
+        "description": "Provides you with a joke.",
+        "type": "Generate",
+        "usage": "joke",
+        "note": "",
+        "alias": "jokes"
+    },
+    "xkcd": {
+        "name": "xkcd",
+        "description": "Want to see XKCD comics? Use this command.",
+        "type": "Generate",
+        "usage": "xkcd [string1]",
+        "note": "String1 can be random, latest, or a number that specifies to the index of the comic you wanted.",
+        "alias": "comic"
+    },
+    "motivate": {
+        "name": "motivate",
+        "description": "Returns a motivational quote.",
+        "type": "Generate",
+        "usage": "motivate",
+        "note": "",
+        "alias": "motiv, inspire"
+    },
+    "message": {
+        "name": "message",
+        "description": "DMs the user. Shows who sent that message.",
+        "type": "Message",
+        "usage": "message [member1] [string1]",
+        "note": "Member1 is the user, and string1 is the content.",
+        "alias": "msg"
+    },
+    "private": {
+        "name": "private",
+        "description": "DMs the user. Does not show who sent that message.",
+        "type": "Message",
+        "usage": "private [member1] [string1]",
+        "note": "Member1 is the user, and string1 is the content.",
+        "alias": ""
+    },
+    "say": {
+        "name": "say",
+        "description": "Sends a message in the channel.",
+        "type": "Message",
+        "usage": "say [string1]",
+        "note": "",
+        "alias": ""
+    },
+    "secret": {
+        "name": "secret",
+        "description": "Sends a message in the channel and deletes the original message.",
+        "type": "Message",
+        "usage": "secret [string1]",
+        "note": "",
+        "alias": ""
+    },
+    "ban": {
+        "name": "ban",
+        "description": "Bans a user from the server.",
+        "type": "Mod",
+        "usage": "ban [member1] [string1]",
+        "note": "String1 is the reason for ban.",
+        "alias": ""
+    },
+    "kick": {
+        "name": "kick",
+        "description": "Kicks a user from the server.",
+        "type": "Mod",
+        "usage": "kick [member1] [string1]",
+        "note": "String1 is the reason for kick",
+        "alias": ""
+    },
+    "warn": {
+        "name": "warn",
+        "description": "Warns a user about something.",
+        "type": "Mod",
+        "usage": "warn [member1] [string1]",
+        "note": "String1 is the reason for warn.",
+        "alias": ""
+    },
+    "purge": {
+        "name": "purge",
+        "description": "Deletes message from a channel.",
+        "type": "Mod",
+        "usage": "purge [integer1] [string1]",
+        "note": "Integer1 is the amount of texts to be removed (including the message to trigger the command)",
+        "alias": "delete"
+    },
+    "badtranslator": {
+        "name": "badtranslator",
+        "description": "Translate your text into a random language multiple times.",
+        "type": "Translate",
+        "usage": "badtranslator [integer1] [string1]",
+        "note": "Integer1 is the amount of times the text will be translated, whole String1 is the content to be translated.",
+        "alias": "bt"
+    },
+    "languagelist": {
+        "name": "languagelist",
+        "description": "Returns a list of languages that can be translated.",
+        "type": "Translate",
+        "usage": "languagelist",
+        "note": "",
+        "alias": ""
+    },
+    "translate": {
+        "name": "translate",
+        "description": "Google Translates your text.",
+        "type": "Translate",
+        "usage": "translate [string1] [string2]",
+        "note": "String1 is the target language, while String2 is the content to be translated.",
+        "alias": ""
+    },
+    "hello": {
+        "name": "hello",
+        "description": "Says hello.",
+        "type": "Utilities",
+        "usage": "hello [string1]",
+        "note": "",
+        "alias": "hi, greet"
+    },
+    "calc": {
+        "name": "calc",
+        "description": "Calculates an expression.",
+        "type": "Utilities",
+        "usage": "calc [string1]",
+        "note": "",
+        "alias": ""
+    },
+    "choice": {
+        "name": "choice",
+        "description": "Choose an option among all choices given.",
+        "type": "Utilities",
+        "usage": "choice [string1] <list>",
+        "note": "String1 is the question, while list is the choices.",
+        "alias": ""
+    },
+    "ping": {
+        "name": "ping",
+        "description": "Tells you your latency.",
+        "type": "Utilities",
+        "usage": "ping",
+        "note": "",
+        "alias": ""
+    },
+    "poll": {
+        "name": "poll",
+        "description": "Creates a poll.",
+        "type": "Utilities",
+        "usage": "poll [string1] <list>",
+        "note": "String1 is the question, while list is the options.",
+        "alias": ""
+    },
+    "roll": {
+        "name": "roll",
+        "description": "Rolls a dice and returns the results.",
+        "type": "Utilities",
+        "usage": "roll <list>",
+        "note": "If two numbers are given, it would be a XdY roll. Or else it's dX every number.",
+        "alias": "dice"
+    },
+    "userinfo": {
+        "name": "userinfo",
+        "description": "Generates a user's info.",
+        "type": "Utilities",
+        "usage": "userinfo [member1]",
+        "note": "",
+        "alias": ""
+    }
+}

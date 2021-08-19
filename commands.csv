@@ -1,0 +1,32 @@
+credits,Provides you with a list of credits.,About,credits,,credits
+feedback,Have any feedback? Use this command!,About,feedback,,
+invite,Generates this bot's invite link.,About,invite,,inv
+help,"Sends a list of commands.",About,help,,
+search,"Search for a command.",About,search,,
+ship,Ships two names.,Fun,ship [string1] [string2],,
+slap,Gives a short story to slap someone. There are sometimes consequences though.,Fun,slap [string1],,
+spam,Sends a string of random characters. (Maximum 2000 characters),Fun,spam [integer1],,
+8ball,8ball predicts your future!,Fun,8ball [string1],,
+fact,Generates a random useless fact.,Generate,fact,,facts
+gif,Gives a GIF about a selected string.,Generate,gif [string1],,
+joke,Provides you with a joke.,Generate,joke,,jokes
+xkcd,Want to see XKCD comics? Use this command.,Generate,xkcd [string1],"String1 can be random, latest, or a number that specifies to the index of the comic you wanted.",comic
+motivate,Returns a motivational quote.,Generate,motivate,,"motiv, inspire"
+message,DMs the user. Shows who sent that message.,Message,message [member1] [string1],"Member1 is the user, and string1 is the content.",msg
+private,DMs the user. Does not show who sent that message.,Message,private [member1] [string1],"Member1 is the user, and string1 is the content.",
+say,Sends a message in the channel.,Message,say [string1],,
+secret,Sends a message in the channel and deletes the original message.,Message,secret [string1],,
+ban,Bans a user from the server.,Mod,ban [member1] [string1],String1 is the reason for ban.,
+kick,Kicks a user from the server.,Mod,kick [member1] [string1],String1 is the reason for kick,
+warn,Warns a user about something.,Mod,warn [member1] [string1],String1 is the reason for warn.,
+purge,Deletes message from a channel.,Mod,purge [integer1] [string1],Integer1 is the amount of texts to be removed (including the message to trigger the command),delete
+badtranslator,Translate your text into a random language multiple times.,Translate,badtranslator [integer1] [string1],"Integer1 is the amount of times the text will be translated, whole String1 is the content to be translated.",bt
+languagelist,Returns a list of languages that can be translated.,Translate,languagelist,,
+translate,Google Translates your text.,Translate,translate [string1] [string2],"String1 is the target language, while String2 is the content to be translated.",
+hello,Says hello.,Utilities,hello [string1],,"hi, greet"
+calc,Calculates an expression.,Utilities,calc [string1],,
+choice,Choose an option among all choices given.,Utilities,choice [string1] <list>,"String1 is the question, while list is the choices.",
+ping,Tells you your latency.,Utilities,ping,,
+poll,Creates a poll.,Utilities,poll [string1] <list>,"String1 is the question, while list is the options.",
+roll,Rolls a dice and returns the results.,Utilities,roll <list>,"If two numbers are given, it would be a XdY roll. Or else it's dX every number.",dice
+userinfo,Generates a user's info.,Utilities,userinfo [member1],,

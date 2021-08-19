@@ -1,0 +1,5 @@
+I didn't keep track of versions in version 1.
+
+[2020/11/15] 1.0.0 Created bot account as Byron The Bot.
+[2020/12/23] 1.1.0 First lines of code were added.
+[2021/05/11] 2.0.0 Started total revamp. Renamed to Grayson.
